@@ -18,10 +18,29 @@
      Implement business logic in the service layer for creating entities with relationships.
 
   **Step 5 -**
-  
+
+     Create a REST controller to handle incoming HTTP requests for creating entities and returning JSON responses.
 
   **Step 6 -**
-  
+
+     Configure the in-memory H2 database and Hibernate settings for development in application.properties.
 
   **Step 7 -**
-  
+
+     run the Spring Boot application and test the API endpoints.
+
+### **Testing API Endpoints**
+
+   POST  /api/cars/createHyundaiWithKia
+     
+
+   **Request Body:**
+     
+   ```
+          {
+          "modelName": "Hyundai Sonata"
+          }
+          {
+            "modelName": "Kia Optima"
+          }
+   ```
