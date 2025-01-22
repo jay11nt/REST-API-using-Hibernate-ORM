@@ -12,3 +12,16 @@
   **Step 3 -**
   
      Create repository interfaces for CRUD operations on Hyundai and Kia
+  
+  **Step 4 -**
+  
+     Implement business logic in the service layer for creating entities with relationships.
+
+  **Step 5 -**
+  
+
+  **Step 6 -**
+  
+
+  **Step 7 -**
+  
