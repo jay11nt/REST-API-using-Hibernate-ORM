@@ -44,3 +44,16 @@
             "modelName": "Kia Optima"
           }
    ```
+   **Response Body:**
+
+   ```
+   {
+    "id": 1,
+    "modelName": "Hyundai Sonata",
+    "kia": {
+      "id": 1,
+      "modelName": "Kia Optima"
+    }
+  }
+
+   ```
