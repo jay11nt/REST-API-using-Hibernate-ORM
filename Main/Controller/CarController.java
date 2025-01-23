@@ -28,12 +28,12 @@ public class CarController {
 
    
   
-            /**
-               * Endpoint to create a Kia car along with its associated Hyundai car.
-               * @param kia Kia car details
-               * @param hyundai Hyundai car details
-               * @return Saved Kia with associated Hyundai
-               */
+            
+               // Endpoint to create a Kia car along with its associated Hyundai car.
+               // @param kia Kia car details
+               // @param hyundai Hyundai car details
+               //  @return Saved Kia with associated Hyundai
+               
     @PostMapping("/createKiaWithHyundai")
     public Kia createKiaWithHyundai(@RequestBody Kia kia, @RequestBody Hyundai hyundai) {
         return carService.createKiaWithHyundai(kia, hyundai);
