@@ -15,12 +15,12 @@ public class CarController {
     @Autowired
     private CarService carService;
 
-            /**
-             * Endpoint to create a Hyundai car along with its associated Kia car.
-             * @param hyundai Hyundai car details
-             * @param kia Kia car details
-             * @return Saved Hyundai with associated Kia
-             */
+            
+             // Endpoint to create a Hyundai car along with its associated Kia car.
+             // @param hyundai Hyundai car details
+             // @param kia Kia car details
+             // @return Saved Hyundai with associated Kia
+             
     @PostMapping("/createHyundaiWithKia")
     public Hyundai createHyundaiWithKia(@RequestBody Hyundai hyundai, @RequestBody Kia kia) {
         return carService.createHyundaiWithKia(hyundai, kia);
