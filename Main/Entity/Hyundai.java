@@ -16,9 +16,9 @@ public class Hyundai
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     private String modelName;  // Car model name
 
+    
     @OneToOne(mappedBy = "hyundai", cascade = CascadeType.ALL)
     private Kia kia;  // Bidirectional relationship with Kia
 }
