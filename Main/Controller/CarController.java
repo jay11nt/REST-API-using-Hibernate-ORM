@@ -10,7 +10,8 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/cars")
-public class CarController {
+public class CarController 
+{
 
     @Autowired
     private CarService carService;
@@ -22,7 +23,8 @@ public class CarController {
              // @return Saved Hyundai with associated Kia
              
     @PostMapping("/createHyundaiWithKia")
-    public Hyundai createHyundaiWithKia(@RequestBody Hyundai hyundai, @RequestBody Kia kia) {
+    public Hyundai createHyundaiWithKia(@RequestBody Hyundai hyundai, @RequestBody Kia kia) 
+    {
         return carService.createHyundaiWithKia(hyundai, kia);
     }
 
@@ -35,7 +37,8 @@ public class CarController {
                //  @return Saved Kia with associated Hyundai
                
     @PostMapping("/createKiaWithHyundai")
-    public Kia createKiaWithHyundai(@RequestBody Kia kia, @RequestBody Hyundai hyundai) {
+    public Kia createKiaWithHyundai(@RequestBody Kia kia, @RequestBody Hyundai hyundai) 
+    {
         return carService.createKiaWithHyundai(kia, hyundai);
     }
 }
