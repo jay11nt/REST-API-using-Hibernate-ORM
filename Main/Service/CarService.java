@@ -27,12 +27,12 @@ public class CarService
      // @return Saved Hyundai
      
     public Hyundai createHyundaiWithKia(Hyundai hyundai, Kia kia) 
- {
+     {
         hyundai.setKia(kia);
         kia.setHyundai(hyundai);
         hyundaiRepository.save(hyundai);
         return hyundai;
-    }
+     }
 
     
      // Creates a Kia car and associates it with a Hyundai car.
@@ -40,11 +40,12 @@ public class CarService
      // @param hyundai Hyundai details
      // @return Saved Kia
      
-    public Kia createKiaWithHyundai(Kia kia, Hyundai hyundai) {
+    public Kia createKiaWithHyundai(Kia kia, Hyundai hyundai) 
+     {
         kia.setHyundai(hyundai);
         hyundai.setKia(kia);
         kiaRepository.save(kia);
         return kia;
-    }
+     }
 }
 
