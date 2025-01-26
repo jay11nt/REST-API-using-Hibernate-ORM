@@ -11,7 +11,8 @@ import org.springframework.stereotype.Service;
 //Service layer to handle the creation of Hyundai and Kia entities.
  
 @Service
-public class CarService {
+public class CarService 
+{
 
     @Autowired
     private HyundaiRepository hyundaiRepository;
@@ -25,7 +26,8 @@ public class CarService {
      // @param kia Kia details
      // @return Saved Hyundai
      
-    public Hyundai createHyundaiWithKia(Hyundai hyundai, Kia kia) {
+    public Hyundai createHyundaiWithKia(Hyundai hyundai, Kia kia) 
+ {
         hyundai.setKia(kia);
         kia.setHyundai(hyundai);
         hyundaiRepository.save(hyundai);
