@@ -1,6 +1,34 @@
 # REST-API-using-Hibernate-ORM
 - using Hibernate ORM with mapping annotaion and also no getter setter to reduce Boilerplate code
 
+**project overview-**
+
+
+    spring-boot-car-app/
+    │── src/
+    │   ├── main/
+    │   │   ├── java/com/example/demo/
+    │   │   │   ├── controller/
+    │   │   │   │   ├── CarController.java
+    │   │   │   ├── entity/
+    │   │   │   │   ├── Hyundai.java
+    │   │   │   │   ├── Kia.java
+    │   │   │   ├── repository/
+    │   │   │   │   ├── HyundaiRepository.java
+    │   │   │   │   ├── KiaRepository.java
+    │   │   │   ├── service/
+    │   │   │   │   ├── CarService.java
+    │   │   │   │   ├── CarServiceImpl.java
+    │   │   │   ├── DemoApplication.java
+    │   ├── resources/
+    │   │   ├── application.properties
+    │── pom.xml
+    │── mvnw
+    │── mvnw.cmd
+    │── README.md
+
+
+
 
   **Step 1 -**
   
