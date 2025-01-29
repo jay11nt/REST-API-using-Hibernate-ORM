@@ -30,33 +30,33 @@
 
 
 
-  **Step 1 -**
+**Step 1 -**
   
-    To set up the Spring Boot project, add the dependencies in your pom.xml file
+To set up the Spring Boot project, add the dependencies in your pom.xml file
 
-  **Step 2 -**
+**Step 2 -**
   
-     Define two entities (Hyundai and Kia) with bidirectional @OneToOne relationship using Hibernate annotations.
+ Define two entities (Hyundai and Kia) with bidirectional @OneToOne relationship using Hibernate annotations.
 
-  **Step 3 -**
+**Step 3 -**
   
-     Create repository interfaces for CRUD operations on Hyundai and Kia
+Create repository interfaces for CRUD operations on Hyundai and Kia
   
-  **Step 4 -**
+**Step 4 -**
   
-     Implement business logic in the service layer for creating entities with relationships.
+Implement business logic in the service layer for creating entities with relationships.
 
-  **Step 5 -**
+**Step 5 -**
 
-     Create a REST controller to handle incoming HTTP requests for creating entities and returning JSON responses.
+Create a REST controller to handle incoming HTTP requests for creating entities and returning JSON responses.
 
-  **Step 6 -**
+**Step 6 -**
 
-     Configure the in-memory H2 database and Hibernate settings for development in application.properties.
+Configure the in-memory H2 database and Hibernate settings for development in application.properties.
 
-  **Step 7 -**
+**Step 7 -**
 
-     run the Spring Boot application and test the API endpoints.
+run the Spring Boot application and test the API endpoints.
 
 ### **Testing API Endpoints**
 
